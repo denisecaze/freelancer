@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang=’pt-BR’>
+  <head>
+    <meta charset="utf-8">
+    <title>Freelancer</title>
+    <!-- Link para arquivo CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Fontes -->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:800" rel="stylesheet">
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- Menu -->
+    <header class="header">
+      <a class="logo" href="#initial">START BOOTSTRAP</a>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a href="#portfolio">PORTFOLIO</a></li>
+          <li class="navbar-item"><a href="#about">ABOUT</a></li>
+          <li class="navbar-item"><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Tela inicial -->
+      <section class="initial" id="initial">
+        <img class="profile-image" src="assets/images/profile.png" alt="foto do perfil">
+        <h1 class="initial-title">START BOOTSTRAP</h1>
+        <div class="star-simbol-light">
+          <i class="star-icon fas fa-star">
+            <hr class="star-icon-line left-line">
+            <hr class="star-icon-line right-line">
+          </i>
+        </div>
+        <p class="initial-skills-text">Web Developer - Graphic Artist - User Experience Designer</p>
+      </section>
+      <!-- Portfolio -->
+      <section class="portfolio" id="portfolio">
+        <h3 class="section-title portfolio-title">PORTFOLIO</h3>
+        <div class="star-simbol-dark">
+          <i class="star-icon fas fa-star">
+            <hr class="star-icon-line dark-line left-line">
+            <hr class="star-icon-line dark-line right-line">
+          </i>
+        </div>
+        <div class="portfolio-images-box">
+          <img class="portolio-picture" width="333px" src="assets/images/portfolio/cabin.png" alt="imagem cabana">
+          <img class="portolio-picture" width="333px" src="assets/images/portfolio/cake.png" alt="imagem torta">
+          <img class="portolio-picture" width="333px" src="assets/images/portfolio/circus.png" alt="imagem circo">
+          <img class="portolio-picture" width="333px" src="assets/images/portfolio/game.png" alt="imagem videogame">
+          <img class="portolio-picture" width="333px" src="assets/images/portfolio/safe.png" alt="imagem cofre">
+          <img class="portolio-picture" width="333px" src="assets/images/portfolio/submarine.png" alt="imagem submarino">
+        </div>
+      </section>
+      <!-- Sobre -->
+      <section class="about" id="about">
+        <h3 class="section-title about-title">ABOUT</h3>
+        <div class="star-simbol-light">
+          <i class="star-icon fas fa-star">
+            <hr class="star-icon-line left-line">
+            <hr class="star-icon-line right-line">
+          </i>
+        </div>
+        <div class="about-text">
+          <p class="about-text-1">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+          <p class="about-text-2">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+        </div>
+        <button class="btn-download"><i class="download-icon fas fa-download"></i>Download Theme</button>
+      </section>
+      <!-- Contato -->
+      <section class="contact" id="contact">
+        <h3 class="section-title contact-title">CONTACT ME</h3>
+        <div class="star-simbol-dark">
+          <i class="star-icon fas fa-star">
+            <hr class="star-icon-line dark-line left-line">
+            <hr class="star-icon-line dark-line right-line">
+          </i>
+        </div>
+        <form class="contact-form">
+          <label>Name</label>
+          <input type="text" class="form-name" required="required" data-validation-required-message="Please enter your name">
+          <label>Email Address</label>
+          <input type="email" class="form-email" required="required" data-validation-required-message="Please enter your email">
+          <label>Phone Number</label>
+          <input type="tel" class="form-phone" required="required" data-validation-required-message="Please enter your phone">
+          <label>Message</label>
+          <textarea type="submit" class="form-message" required="required" data-validation-required-message="Please enter a message"></textarea>
+          <button type="submit" class="btn-submit">Send</button>
+        </form>
+      </section>
+    </main>
+    <!-- Rodapé -->
+    <footer class="footer">
+      <div class="footer-menu">
+        <div class="location">
+          <h5 class="location-title">LOCATION</h5>
+          <p class="location-text">3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+        </div>
+        <div class="around">
+          <h5 class="around-title">AROUND THE WEB</h5>
+          <div class="social-apps-list">
+            <a href="#"><i class="fab fa-facebook-f social-icon"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g social-icon"></i></a>
+            <a href="#"><i class="fab fa-twitter social-icon"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in social-icon"></i></a>
+            <a href="#"><i class="fab fa-dribbble social-icon"></i></a>
+          </div>
+        </div>
+        <div class="freelancer">
+          <h5 class="freelancer-title">ABOUT FREELANCER</h5>
+          <p class="freelancer-text">Freelance is a free to use, open source<br>Bootstrap theme created by <span class="freelancer-stronger-text"><span>Start<br>Bootstrap</span>.</p>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © Your Website 2017</p>
+      </div>
+    </footer>
+  </body>
+</html>
